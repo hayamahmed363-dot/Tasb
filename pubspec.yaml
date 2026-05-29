@@ -1,0 +1,21 @@
+name: tasbih_overlay
+description: مسبحة الصلاة على النبي مع Overlay عائم
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  vibration: ^1.8.4
+  flutter_overlay_window: ^0.4.0
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
